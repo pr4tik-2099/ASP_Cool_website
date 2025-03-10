@@ -1,0 +1,27 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, sans-serif;   
+    color:aliceblue;
+}
+body {
+    height:100%;
+    width:100%;
+}
+#nav-bar {
+    height: 110px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 120px;
+    gap:45px;
+    position: fixed;
+    z-index: 100;
+}
+.navlink {
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 15px;
+}
